@@ -4,7 +4,7 @@ body {
 
 header {
   background-color: #797d80;
-  height: 100px;
+  height: 300px;
 }
 
 h1 {
@@ -78,7 +78,10 @@ table * {
   border: 1px double #020005;
   padding: 8px;
 }
-
+th, tr, td {
+  padding: 10px;
+  text-align: left;
+}
 th {
   font-weight:900;
 }
